@@ -109,8 +109,8 @@ class AuthorizationCodeGrantServerFlow
   </head>
 
   <body>
-    <h2 style="text-align: center">Application has successfully obtained access credentials</h2>
-    <p style="text-align: center">This window can be closed now.</p>
+    <h2 style="text-align: center">Your authentication has been completed successfully</h2>
+    <p style="text-align: center">You can close this window now :) .</p>
   </body>
 </html>''',
           );
@@ -123,9 +123,9 @@ class AuthorizationCodeGrantServerFlow
         rethrow;
       }
     } finally {
-      await server.close();
       const _url = 'https://campusconnect4.page.link/meetredirect';
       if (!await launch(_url)) throw 'Could not launch $_url';
+      await server.close();
     }
   }
 }
