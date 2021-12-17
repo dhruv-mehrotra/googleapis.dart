@@ -114,8 +114,6 @@ class AuthorizationCodeGrantServerFlow
   </body>
 </html>''',
           );
-        String url = 'https://campusconnect4.page.link/meetredirect';
-        html.window.open(url, '_blank');
 
         await request.response.close();
         return credentials;
@@ -126,6 +124,8 @@ class AuthorizationCodeGrantServerFlow
       }
     } finally {
       await server.close();
+      String url = 'https://campusconnect4.page.link/meetredirect';
+      html.window.open(url, '_blank');
     }
   }
 }
