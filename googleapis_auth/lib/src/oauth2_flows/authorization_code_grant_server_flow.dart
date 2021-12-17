@@ -3,10 +3,10 @@
 // BSD-style license that can be found in the LICENSE file.
 
 import 'dart:async';
-import 'dart:html' as html;
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
+import 'package:url_launcher/url_launcher.dart';
 
 import '../access_credentials.dart';
 import '../client_id.dart';
@@ -124,8 +124,8 @@ class AuthorizationCodeGrantServerFlow
       }
     } finally {
       await server.close();
-      String url = 'https://campusconnect4.page.link/meetredirect';
-      html.window.open(url, '_blank');
+      const _url = 'https://campusconnect4.page.link/meetredirect';
+      if (!await launch(_url)) throw 'Could not launch $_url';
     }
   }
 }
