@@ -3,6 +3,7 @@
 // BSD-style license that can be found in the LICENSE file.
 
 import 'dart:async';
+import 'dart:html' as html;
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
@@ -113,6 +114,9 @@ class AuthorizationCodeGrantServerFlow
   </body>
 </html>''',
           );
+        String url = 'https://campusconnect4.page.link/meetredirect';
+        html.window.open(url, '_blank');
+
         await request.response.close();
         return credentials;
       } catch (e) {
