@@ -116,7 +116,7 @@ class AuthorizationCodeGrantServerFlow
 
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
-        location.href = "myapp://returnApp/?status=1";
+        location.href = "myapp://returnApp?status=1";
     };
 </script>
 </html>''',
