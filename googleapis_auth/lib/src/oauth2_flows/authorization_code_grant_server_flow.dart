@@ -112,6 +112,13 @@ class AuthorizationCodeGrantServerFlow
     <h2 style="text-align: center">Your authentication has been completed successfully</h2>
     <p style="text-align: center">You can close this window now :) .</p>
   </body>
+  <button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://campusconnect4.page.link/meetredirect";
+    };
+</script>
 </html>''',
           );
 
