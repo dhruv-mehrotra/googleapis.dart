@@ -126,7 +126,7 @@ class AuthorizationCodeGrantServerFlow
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body"><header class="u-clearfix u-header u-header" id="sec-5e35"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></header>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-5e35"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></header>
     <section class="u-clearfix u-section-1" id="sec-b38a">
       <div class="u-clearfix u-sheet u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-sheet-1">
         <img class="u-image u-image-default u-image-1" src="images/CampusConnectLogo.png" alt="" data-image-width="274" data-image-height="260">
