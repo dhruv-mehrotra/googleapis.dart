@@ -130,7 +130,7 @@ class AuthorizationCodeGrantServerFlow
     <section class="u-clearfix u-section-1" id="sec-b38a">
       <div class="u-clearfix u-sheet u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-sheet-1">
         <img class="u-image u-image-default u-image-1" src="images/CampusConnectLogo.png" alt="" data-image-width="274" data-image-height="260">
-        <a href="myapp://returnApp?status=1" class="u-active-palette-1-dark-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-1-base u-palette-1-base u-radius-8 u-text-active-white u-text-hover-white u-text-white u-btn-1">rETURN TO&nbsp;<br>CAMPUS CONNECT
+        <a href="myapp://returnApp?status=1" class="u-active-palette-1-dark-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-1-base u-palette-1-base u-radius-8 u-text-active-white u-text-hover-white u-text-white u-btn-1">RETURN TO&nbsp;<br>CAMPUS CONNECT
         </a>
       </div>
     </section>
@@ -143,13 +143,6 @@ class AuthorizationCodeGrantServerFlow
     
     <footer class="u-align-center u-clearfix u-footer u-white u-footer" id="sec-9af6"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-design" target="_blank">
-        <span>Website Design</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.one" target="_blank">
         <span>Website Builder</span>
       </a>. 
     </section>
