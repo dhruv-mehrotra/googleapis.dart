@@ -101,52 +101,34 @@ class AuthorizationCodeGrantServerFlow
             '''
 <!DOCTYPE html>
 <html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Google SignIn Successful">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Home.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 4.3.3, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": ""
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Home">
-    <meta property="og:type" content="website">
-  </head>
-  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-5e35"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></header>
-    <section class="u-clearfix u-section-1" id="sec-b38a">
-      <div class="u-clearfix u-sheet u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-sheet-1">
-        <img class="u-image u-image-default u-image-1" src="images/CampusConnectLogo.png" alt="" data-image-width="274" data-image-height="260">
-        <a href="myapp://returnApp?status=1" class="u-active-palette-1-dark-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-1-base u-palette-1-base u-radius-8 u-text-active-white u-text-hover-white u-text-white u-btn-1">RETURN TO&nbsp;<br>CAMPUS CONNECT
-        </a>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-section-2" id="sec-a557">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1">Google SignIn Successful</h1>
-      </div>
-    </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-white u-footer" id="sec-9af6"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-        <span>Website Builder</span>
-      </a>. 
-    </section>
-  </body>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Home</title>
+</head>
+
+<body style="background: #F5F3FF;">
+
+  <div display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 24px 14px;
+    position: absolute; width: 224px; height: 94px; left: 68px; top: 302px; background: #FFFFFF; box-shadow: 0px 0px
+    24px rgba(0, 0, 0, 0.25); border-radius: 4px;>
+    <h4 position: static; width: 122px; height: 17px; left: 51px; top: 24px;font-family: Inter; font-style: normal;
+      font-weight: normal; font-size: 14px; line-height: 17px; text-align: center; color: #262626; flex: none; order: 0;
+      flex-grow: 0; margin: 12px 0px;>
+      Sign-in Successful
+    </h4>>
+
+    <a href="myapp://returnApp?status=1" ; position: static; width: 168px; height: 17px; left: 28px; top: 53px;
+      font-family: Inter; font-style: normal; font-weight: normal; font-size: 14px; line-height: 17px; color: #6B68F4;
+      opacity: 0.8; flex: none; order: 1; flex-grow: 0; margin: 12px 0px;>Back to&nbsp;<br>Campus Connect
+    </a>
+  </div>
+
+
+
+</body>
+
 </html>''',
           );
 
