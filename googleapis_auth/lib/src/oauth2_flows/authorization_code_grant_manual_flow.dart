@@ -55,4 +55,4 @@ class AuthorizationCodeGrantManualFlow
   }
 }
 
-const _redirectionUri = 'urn:ietf:wg:oauth:2.0:oob';
+const _redirectionUri = 'http://localhost:1/';
