@@ -117,7 +117,7 @@ void main() {
     final redirectUri = Uri.parse(uri.queryParameters['redirect_uri']!);
 
     if (manual) {
-      expect('$redirectUri', equals('urn:ietf:wg:oauth:2.0:oob'));
+      expect('$redirectUri', equals('http://localhost:1/'));
     } else {
       expect(uri.queryParameters['state'], isNotNull);
       expect(redirectUri.scheme, equals('http'));
